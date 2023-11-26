@@ -1,0 +1,4 @@
+C:/Users/lisam/Documents/IMAC/C++/TD01/build/CMakeFiles/ex01.dir
+C:/Users/lisam/Documents/IMAC/C++/TD01/build/CMakeFiles/ex02.dir
+C:/Users/lisam/Documents/IMAC/C++/TD01/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/lisam/Documents/IMAC/C++/TD01/build/CMakeFiles/ZERO_CHECK.dir

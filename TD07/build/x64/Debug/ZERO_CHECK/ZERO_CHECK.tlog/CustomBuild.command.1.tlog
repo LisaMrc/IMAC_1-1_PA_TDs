@@ -1,0 +1,10 @@
+^C:\USERS\LISAM\DOCUMENTS\IMAC\C++\TD07\BUILD\CMAKEFILES\6202A0A74C977F74DCBBFBC80186282F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/lisam/Documents/IMAC/C++/TD07 -BC:/Users/lisam/Documents/IMAC/C++/TD07/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/lisam/Documents/IMAC/C++/TD07/build/TD07.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
