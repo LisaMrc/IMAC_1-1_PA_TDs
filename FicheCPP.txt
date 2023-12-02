@@ -1,0 +1,310 @@
+﻿____ Fiche C++ ____
+CASTER ____
+A QUOI CA SERT
+Transformer un type de variable en un autre
+
+
+STRUCTURE DE BASE
+static_cast<float>(integer): 42
+static_cast<int>(floating): 3
+ENTRÉE / SORTIE ____
+std::cin << entree;
+std::cout << "Sortie :" <<  sortie << std::endl ;
+NB : std::endl est optionnel, il sert à revenir à la ligne
+
+
+while (!(std::cin >> age) || age <= 0) {
+std::cin.clear();
+ // On remet std::cin dans un état fonctionnel.
+std::cin.ignore(255, '\n');
+ // On vide les caractères mémorisés.
+std::cout << "Entrez une valeur numérique valide : ";
+}
+ENUM ____
+A QUOI CA SERT
+A "bloquer" certaines valeurs pour l'utilisateur
+
+
+STRUCTURE DE BASE
+enum class Season {
+    Spring,
+    Summer,
+    Autumn,
+    Winter,
+};
+
+
+MANIPULATION
+Utiliser une valeur de l'enum
+int main()
+{
+    Season current_season { Season::Spring };
+    return 0;
+}
+
+
+FONCTIONS ____
+A QUOI CA SERT
+Découper son code (améliorer le débug)
+
+
+STRUCTURE DE BASE
+type_de_retour nom(paramètres)
+{
+    instructions
+}
+
+
+MANIPULATION
+Sortir d'une fonction
+Dès que l'instruction return est exécutée, on sort de la fonction en cours et tout le code restant n’est pas exécuté.
+
+STRUCTURES ____
+A QUOI CA SERT
+Organiser les données
+
+
+STRUCTURE DE BASE
+#include <string>
+
+struct Product
+{
+    std::string name {};
+    float price {};
+    unsigned int quantity {};
+};
+MANIPULATION
+Entrer des valeurs (initialisation)
+Attention : il faut l'initialiser. On peut également utiliser
+
+People people { "name", "lastName", 42 };
+People people = { "name", "lastName", 42 };
+
+
+Pas d'init = risque comportement indéterminé
+
+
+Manipuler des membres
+Membre = variable appartenant à la structure
+Utilisation de structure.membre = valeur
+
+
+Références
+Une structure étant un agrégat de données (plus ou moins gros) il est intéressant d'utiliser des références pour passer en paramètres nos structures afin d'éviter des copies
+
+
+MÉTHODES ____
+A QUOI CA SERT
+Intégrer une fonction dans une structure, manipuler des membres directement
+
+
+STRUCTURE DE BASE
+struct Product
+{
+    std::string name {};
+    float price {};
+    unsigned int quantity {};
+
+    float TotalPrice()
+    {
+        return price * quantity;
+    }
+};
+
+Autre structure, utilisant les prototypes :
+struct Product
+{
+    std::string name {};
+    float price {};
+    unsigned int quantity {};
+
+    float TotalPrice();
+};
+
+
+Appel :
+float Product::TotalPrice()
+{
+    return price * quantity;
+}
+
+
+VECT ____
+A QUOI CA SERT
+std::vector est un tableau dynamique. (std::vector<type>)
+std::array est un tableau statique. (std::array<type, nombres d'entrées>)
+std::string est un tableau dynamique spécialement conçu pour la gestion du texte.
+
+
+STRUCTURE DE BASE
+std::vector</* type des éléments du tableau */> nom {};
+
+
+MANIPULATION
+- 1er / dernier
+std::cout << "Le premier élément est " << vector.front() << "." << std::endl;
+std::cout << "Le dernier élément est " << vector.back() << "." << std::endl;
+    
+- Ajouter / enlever
+vector.push_back() = ajouter un élément
+vector.pop_back() || clear() = supprimer un élément
+
+
+- Accéder
+ std::cout << "the second élément is " << vector[1] << std::endl;
+vector.size() (marche aussi avec les string)
+
+
+ATTENTION ! Un tableau commence à l'indice 0
+
+
+- Modifications
+vector.resize(size);
+vector.insert(vector.begin(), value) = insérer à un endroit défini
+
+
+
+
+MATH ____
+Utilisation de PI 
+    #define _USE_MATH_DEFINES
+    #include <cmath>
+  
+int main () {
+        float pi {M_PI};
+    }
+
+
+PUISSANCE
+ inclue dans cmath "pow"
+
+
+RANDOM ____
+#include <cstdlib> // std::rand & std::srand
+#include <ctime> // std::time
+    
+std::srand(std::time(nullptr));
+int random_variable { std::rand()};
+std::cout << "Random value between 0 and "<< RAND_MAX <<" : " << random_variable;
+
+
+COMPILATION ET HEADERS
+A QUOI CA SERT
+Contenir uniquement les prototypes des fonctions avant linkage
+Séparer en plusieurs fichiers (aide pour débug)
+Diviser le code pour mieux compiler (pas de copies trop lourdes)
+
+
+STRUCTURE DE BASE
+Dans un fichier .cpp
+#include "sum.hpp"
+
+
+Dans le .hpp en lui-même
+#include pragma once
+Def de la structure / fonction
+
+
+Trouver le raccourci d'une manoeuvre qu'on ne connaît pas dans VS code
+ctrl + MAJ + P
+
+
+Les booléens
+Booléens : donne 0 ou 1 (true or false)
+
+
+! devant une condition permet d'inverser la condition
+
+
+= est une assignation et non une égalité ! Il faut faire attention, car si "if (a = b)", alors il teste le retour de l'assignation
+
+
+
+
+"if (a==b)" -> teste directement si a==b est vrai
+
+
+(!a and !b) est la même chose que !(a or b)
+
+
+std:boolalpha -> affiche dans la console true ou false (et non 1 ou 0)
+
+
+PAS A APPRENDRE :
+Subtilités du CMake
+Les "pour aller plus loin" ne sont pas évalués
+
+
+L'EXAM
+- TD Noté
+- Exercice avec plusieurs fichiers donnés à l'avance)
+- TD08 important (manip de plusieurs fichiers)
+
+
+CMAKE ___
+cmake_minimum_required(VERSION 3.5)
+set(CMAKE_CXX_STANDARD 17)
+project(TD01)
+# On indique que l'on veut créer un exécutable "ex01" compilé à partir du fichier td01_ex01.cpp
+add_executable(ex01 src/td01_ex01.cpp)
+TYPES DE VARIABLES ET D’OPERATEURS ____
+- int (nombres entiers)
+- size_t
+- float (nombres à virgules)
+- double
+- char (caractères uniques)
+- string (de <iostream> ou <string>) (chaine de caractères)
+- bool (opérateurs logiques)
+
+
+ - + = addition
+- - = soustraction
+ - * = multiplications
+- / = division
+ - % = modulo (le reste d'une division euclidienne)
+- ++ = on ajoute 1
+
+
+BIBLIOTHÈQUES ____
+<iostream>
+<string>
+<cstdlib> (avec <ctime> pour changer la seed facilement)
+<vector>
+<array>
+
+
+FOR ____
+A QUOI ÇA SERT
+Répéter un nombre de fois connu
+
+
+STRUCTURE DE BASE
+for (int count {0} /*initialisation*/ ; count < 10 /*condition*/ ; count++/*Itération*/)
+{
+    // Instructions
+}
+
+
+    for (float const& value : values) {
+        sum += value;
+    }
+
+
+WHILE ____
+A QUOI ÇA SERT
+Répéter quelque chose jusqu’à une condition d’arrêt connue
+
+
+STRUCTURE DE BASE
+#include <iostream>
+int main()
+{
+        int count { 0 }; // initialisation (d'un compteur ou autre chose lié à la boucle)
+        while ( count < 10 /* condition */)
+        {
+            std::cout << count << std::endl; // Instructions
+            count++; // Itération (mise à jour du compteur généralement)
+        }
+ 
+        return 0;
+}
