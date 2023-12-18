@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.5)
 set(CMAKE_CXX_STANDARD 17)
 
 # Le nom du projet
-project(TD00)
+project(TD09)
 
 # On indique que l'on veut créer un exécutable compilé à partir du fichier .cpp
 add_executable(ex01 src/ex01.cpp)

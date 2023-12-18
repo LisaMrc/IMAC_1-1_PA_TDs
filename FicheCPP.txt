@@ -308,3 +308,13 @@ int main()
  
         return 0;
 }
+
+Les rérférences ____
+
+Intérêt : ne pas copier l'élément (opti pour les images et les tableaux surtout) et modifier l'objet en paramètre (sinon la copie est détruite et le paramètre n'est pas modifié)
+
+-> Si on prend une valeur définie : ex, addOne(43)
+
+ref  a utiliser la valeur en la lisant
+
+quand la fonction ne modifie pas la variable  ref permet de l'utiliser avec une valeur en dur et une variable
