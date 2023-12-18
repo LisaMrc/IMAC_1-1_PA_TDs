@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\lisam\Documents\IMAC\Programmation et Algorithmique\IMAC_1_TDs_CPP\TD09\src\ex03.cpp">
+    <ClCompile Include="F:\IMAC\Programmation et Algorithmique\IMAC_1_TDs_CPP\TD09\src\ex03.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\lisam\Documents\IMAC\Programmation et Algorithmique\IMAC_1_TDs_CPP\TD09\CMakeLists.txt" />
+    <CustomBuild Include="F:\IMAC\Programmation et Algorithmique\IMAC_1_TDs_CPP\TD09\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F188253C-D82E-3F52-A651-A203C1D5C559}</UniqueIdentifier>
+      <UniqueIdentifier>{AC28FCAC-C6DE-3BC9-8A06-4F0D6F704DB9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

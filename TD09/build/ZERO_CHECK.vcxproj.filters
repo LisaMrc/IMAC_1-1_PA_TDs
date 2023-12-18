@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\lisam\Documents\IMAC\Programmation et Algorithmique\IMAC_1_TDs_CPP\TD09\build\CMakeFiles\1fc381084bffcba1be8f881798bdcdf7\generate.stamp.rule">
+    <CustomBuild Include="F:\IMAC\Programmation et Algorithmique\IMAC_1_TDs_CPP\TD09\build\CMakeFiles\ff4c74ddb53d60a579162bf03407f943\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{673E2670-F29E-3E81-B048-1456C0F35A03}</UniqueIdentifier>
+      <UniqueIdentifier>{6702C7DE-3D8E-31A1-A9D7-8ECCD04DE98E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

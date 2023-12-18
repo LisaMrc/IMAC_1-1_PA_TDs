@@ -20,6 +20,9 @@ int const * findPtrOfMaximumInArray(int const* array, int length)
 
 float* thresholdFilter(float const* const array, size_t const size, float const threshold, size_t& new_size)
 {
+    // 3. Écrire une fonction thresholdFilter qui prend en paramètre un tableau de flottants, 
+    // sa taille, un seuil et une référence sur un entier qui contiendra la taille du nouveau tableau 
+    // et qui retourne un pointeur sur le premier élément du nouveau tableau
     float* arrayThreshold {new float[new_size]};
     int arrayThresholdCount{0};
 
@@ -41,13 +44,14 @@ int main()
 {
     // 1. Allouer dynamiquement un tableau de 100 flottants aléatoires compris entre 0 et 100
     float* array_ptr {new float[100]};
-
     for (int i = 0; i < 100; ++i)
     {
       array_ptr[i] = (rand() / RAND_MAX ) * 100;
     }
 
-    thresholdFilter(array_ptr, array_ptr.size(), .7, size_t& 40);
+    size_t new_size {0};
+
+    thresholdFilter(array_ptr, 100, 5.f, new_size);
 
     delete[] array_ptr;
     return 0;
