@@ -18,6 +18,7 @@ float const* get_max(float const * const array, size_t const size)
     
     // Assigner array à max revient à faire max = &array[0], autrement dit max pointe vers le premier élément du tableau array
     float const* max { array };
+
     for (size_t i {1}; i < size; ++i) {
         if (array[i] > *max)
             max = array + i;
@@ -29,7 +30,8 @@ float const* get_max(float const * const array, size_t const size)
 // new_size passé en référence non constante permet de modifier la valeur de la variable passée en paramètre pour pouvoir stocker la taille du tableau filtré
 // C'est une astuce pour contourner le fait que l'on ne peut pas retourner deux valeurs en C++
 // Une autre façon de faire et de retourner une structure contenant le tableau filtré et sa taille ou alors d'utiliser des std::pair ou std::tuple (on découvrira ces notions au second semestre)
-float* thresholdFilter(float const* const array, size_t const size, float const threshold, size_t& new_size) {
+float* thresholdFilter(float const* const array, size_t const size, float const threshold, size_t& new_size) 
+{
     if (array == nullptr || size == 0)
         return nullptr;
     

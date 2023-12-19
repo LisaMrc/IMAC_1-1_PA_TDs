@@ -17,16 +17,16 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ex01::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "ex02::@6890427a1f51a3e7e1df"
 		},
 		{
+			"id" : "ex01::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "ex03::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
