@@ -91,6 +91,7 @@ int main()
     }
 
     size_t new_size {100};
+    float* filteredArray {thresholdFilter(array_ptr, 100, 50.f, new_size)};
 
     std::cout << "Array: ";
     displayArray(array_ptr, 100);
@@ -98,8 +99,9 @@ int main()
     std::cout << "Max value: " << *ptrOnArraysMax(array_ptr, 100) << std::endl;
 
     std::cout << "Filtered array ( > " << 5 << "): ";
-    displayArray(thresholdFilter(array_ptr, 100, 5.f, new_size), new_size);
+    displayArray(filteredArray, new_size);
 
     delete[] array_ptr;
+    delete[] filteredArray;
     return 0;
 }   
