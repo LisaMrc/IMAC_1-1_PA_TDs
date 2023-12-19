@@ -17,10 +17,17 @@ int main() {
     std::cout << "f2 = ";
     f2.display();
 
-    Fraction add(Fraction const& f1, Fraction const& f2);
-    Fraction sub(Fraction const& f1, Fraction const& f2);
-    Fraction mul(Fraction const& f1, Fraction const& f2);
-    Fraction div(Fraction const& f1, Fraction const& f2);
+    std::cout << "f1 + f2 = ";
+    (add(f1, f2)).display();
+
+    std::cout << "f1 - f2 = ";
+    (sub(f1, f2)).display();
+
+    std::cout << "f1 * f2 = ";
+    (mul(f1, f2)).display();
+
+    std::cout << "f1 / f2 = ";
+    (div(f1, f2)).display();
 
     return 0;
 }

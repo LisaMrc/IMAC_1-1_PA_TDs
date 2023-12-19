@@ -29,16 +29,14 @@ Fraction mul(Fraction const& f1, Fraction const& f2)
     });
 };
 
-Fraction div(Fraction &f1, Fraction &f2) 
-{
-    return simplify 
-    ({
-        f1.numerator*f2.denominator,
-        f1.denominator*f2.numerator  
+Fraction div(Fraction const& f1, Fraction const& f2) {
+    return simplify({
+        f1.numerator * f2.denominator,
+        f1.denominator * f2.numerator
     });
-};
+}
 
 void Fraction::display()
 {
-    std::cout << numerator << " / " << denominator;
+    std::cout << numerator << " / " << denominator << std::endl;
 };

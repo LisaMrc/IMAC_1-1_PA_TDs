@@ -40,7 +40,7 @@ int gcd(int pos_int1, int pos_int2)
 Fraction simplify(Fraction const& f)
 {
     unsigned divisor{std::gcd(f.numerator, f.denominator)};
-    
+
     return {
         f.denominator/divisor,
         f.numerator/divisor
