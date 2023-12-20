@@ -36,10 +36,7 @@ int main() {
         min = pt_eb/10;
 
         std::cout << "Il faut " << min << " minutes" << std::endl;
-        
-        std::cout << pt_eb << A << std::endl;
-
-
+    
         return 0;
     }
 }

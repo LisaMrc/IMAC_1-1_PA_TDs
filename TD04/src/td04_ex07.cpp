@@ -1,58 +1,52 @@
 #include <iostream>
 
-/* ________________ Triangle ________________
-
 int main()
 {
-    int saisie;
-    std::cout << "Entrez un entier positif :" << std::endl;
-    std::cin >> saisie;
+    int number = {};
+    std::cout << "Entrez un entier positif : ";
+    std::cin >> number;
 
-    if (std::cin.fail()) {
-        std::cout << "Erreur de saisie" << std::endl;
-        std::cin.clear();
-        std::cin.ignore(255, '\n');
-        return 1;
-    
-    } else {
-        for (int ligne = 0; ligne < saisie; ligne++)
+    // Triangle
+    for (int i = {0}; i < number; i++)
+    {
+        for (int j = {0}; j<= i; j++)
         {
-            int symbolecount {ligne+1};
-            for (int i = 0; i < symbolecount; i++) {
-                std::cout << '*';
-            }
-            std::cout << std::endl;
+            std::cout << "* " ;
         }
+        std::cout << std::endl;
     }
-} */
 
-/* ________________ Sapin ________________ */
+    std::cout << "" << std::endl; // saut de ligne pour être plus lisible
 
-int main()
-{
-    int saisie;
-    std::cout << "Entrez un entier positif :" << std::endl;
-    std::cin >> saisie;
-
-    if (std::cin.fail()) {
-        std::cout << "Erreur de saisie" << std::endl;
-        std::cin.clear();
-        std::cin.ignore(255, '\n');
-        return 1;
-    
-    } else {
-        for (int ligne = 0; ligne < saisie; ligne++)
-        {
-            int symbolecount {ligne+1};
-
-            for (int i = symbolecount; i < 0; i-=1) {
-                std::cout << ' ';
-            }
-            
-            for (int i = 0; i < symbolecount; i++) {
-                std::cout << '*';
-            }
-            std::cout << std::endl;
+    // Sapin
+    for (int i = {1}; i<= number; i++) {
+        for (int j = number-1-i; j>=0; j--) {
+            std::cout << " ";
         }
+        for (int k = {1}; k<=2*i-1; k++) {
+            std::cout << "*";
+        }
+        std::cout << "" << std::endl;
     }
+
+    std::cout << "" << std::endl; // saut de ligne pour être plus lisible
+
+    // Carré
+    for (int a = {0}; a< number; a++) {
+        std::cout << "*" ;
+    }
+    std::cout << "" << std::endl;
+    for (int i = {0}; i< number-2; i++) {
+        std::cout << "*" ;
+        for (int j = {0}; j<number-2; j++) {
+            std::cout << " " ;
+        }
+        std::cout << "*" ;
+        std::cout << "" << std::endl;
+    }
+    for (int a = {0}; a< number; a++) {
+        std::cout << "*" ;
+    }
+
+    return 0;
 }

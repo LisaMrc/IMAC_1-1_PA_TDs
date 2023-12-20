@@ -4,24 +4,23 @@
  
 int main() 
 {
-  // Initialisation du générateur de nombres aléatoires avec la fonction time()
-  std::srand(std::time(nullptr));
-  int random_variable { std::rand() % 100 + 1};
+  std::srand(std::time(nullptr)); // Initialisation du générateur de nombres aléatoires avec la fonction time()
+  int randomInt{std::rand() % 100 + 1};
   std::cout << "Try to guess the random value... " << std::endl;
 
-  /*std::cout << random_variable << std::endl;*/
-  
-  int user_number{};
-  
+  /*std::cout << randomInt << std::endl;*/
+
+  int userGuess{};
+
   do
   {
     std::cout << "Enter a number :" << std::endl;
-    std::cin >> user_number;
+    std::cin >> userGuess;
 
-    if (user_number > random_variable) 
+    if (userGuess > randomInt) 
     {
       std::cout << "-" << std::endl;
-    } else if (user_number < random_variable)
+    } else if (userGuess < randomInt)
     {
       std::cout << "+" << std::endl;
     }
@@ -30,5 +29,5 @@ int main()
       std::cout << "You guessed it !" << std::endl;      
     }
 
-  } while (random_variable != user_number);
+  } while (randomInt != userGuess);
 }

@@ -2,21 +2,21 @@
 
 int main()
 {
-    int number { 10 };
+    int variable { 10 };
 
-    std::cout << "Initialisation :" << number << std::endl;
+    std::cout << "Initialisation :" << variable << std::endl;
 
-    number++;
+    variable++;
 
-    std::cout << "Incrementation de 1 :" << number << std::endl;
+    std::cout << "Increment of 1 :" << variable << std::endl;
 
-    number*=3;
+    variable*=3;
 
-    std::cout << "Multiplication par 3 :" << number << std::endl;
+    std::cout << "Multiplied by 3 :" << variable << std::endl;
 
-    number/=2;
+    variable/=2;
 
-    std::cout << "Division par 2 :" << number << std::endl;
+    std::cout << "Divided by 2 :" << variable << std::endl;
     
     return 0;
 }

@@ -1,16 +1,13 @@
 #include <iostream>
 
-int main() {
+int main() 
+{
+    int variable{11};
 
-    int number { 11 };
-    std::cout << "Initialisation :" << number << std::endl;
-    
-    number/=2;
-    std::cout << "Division par 2 :" << number << ", on obtient un entier car on demande une division d'entiers" <<std::endl;
-    
-    static_cast<float>(number);
-    number/=2.0f;
-    std::cout << "Conversion puis division par 2.0f :" << number <<std::endl;
+    std::cout << variable;
+    std::cout << variable/2;
+    // On obtient un nombre entier car on fait une division d'entiers
 
-    return 0;
+    float floatVariable{static_cast<float>(variable)};
+    std::cout << variable/2.0f;
 }

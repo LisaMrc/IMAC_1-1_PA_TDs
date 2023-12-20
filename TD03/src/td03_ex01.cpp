@@ -2,21 +2,22 @@
 
 int main()
 {
-    int saisie;
-    std::cout << "Saisir une valeur :" << std::endl;
-    std::cin >> saisie;
+    int userInteger{0};
+    std::cout << "Enter an integer :";
+    std::cin >> userInteger;
 
-    if (saisie<0) 
+    if (userInteger>0)
     {
-        std::cout << saisie << "est négatif" << std::endl;
+       std::cout << userInteger << " is positive";
     }
-    else if (saisie==0) {
-        std::cout << saisie << "est nul" << std::endl;
-    }
-    else
+    else if (userInteger<0) 
     {
-        std::cout << saisie << "est positif" << std::endl;
+        std::cout << userInteger << " is negative";
+    } 
+    else 
+    {
+        std::cout << "is equal to 0";
     }
-    
+
     return 0;
 }

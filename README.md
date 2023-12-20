@@ -1,7 +1,6 @@
-# IMAC S1 | Programmation et algorithmie | TDs C++
+# IMAC S1 | Prog & algo | TDs C++
 ----
 
-## Emojis
-
 🚧 WIP
-✅ Completed / added file
+✅ Completed file
+⚡ Improved file

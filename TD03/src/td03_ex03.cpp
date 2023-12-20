@@ -1,28 +1,24 @@
 #include <iostream>
-#include <typeinfo>
 
-int main() {
+int main()
+{
+    int userAge{0};
+    std::cout << "Enter your age : ";
+    std::cin >> userAge;
 
-    int age;
-    std::cout << "Saisir une valeur :";
-    std::cin >> age;
-
-    if (std::cin.fail()) {
-    std::cout << "Saisir l'âge avec des chiffres";
-    std::cin.clear();
-    }
-
-    else if (age < 0)
+    if (std::cin.fail() || userAge < 0) 
     {
-        std::cout << "L'âge ne peut pas être négatif";
+        std::cout << "Error : you either entered a negative age or letters";
         std::cin.clear();
+        std::cin.ignore(255, '\n');
     }
-    else if (age>=18) {
-
-        std::cout << "utilisateur majeur" << std::endl;
+    else if (userAge < 18) 
+    {
+        std::cout << "Minor user";
     }
-    else {
-    std::cout << "utilisateur mineur" << std::endl;
+    else 
+    {
+        std::cout << "Adult user";
     }
 
     return 0;

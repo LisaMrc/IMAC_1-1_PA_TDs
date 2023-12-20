@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main() 
+{
     int cpt {1};
 
     while (cpt<20)
@@ -15,7 +16,7 @@ int main() {
         cpt++;
     }
 
-        for (cpt=1; cpt<20; cpt++)
+    for (cpt=1; cpt<20; cpt++)
     {
         std::cout << cpt << std::endl;
     }

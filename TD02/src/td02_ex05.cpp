@@ -1,13 +1,13 @@
 #include <iostream>
 
-int main() {
+int main()
+{
+    int entry{};
+    std::cout << "Enter a number between 1 and 26 :";
+    std::cin >> entry;
 
-    int number;
-    std::cin >> number;
-
-    char letter = static_cast<char>(number);
-    
-    std::cout << "La lettre correspondante est :" << letter << std::endl;
+    char letter{static_cast<char>(entry + 64)};
+    std::cout << "The corresponding letter is :" << letter << std::endl;
 
     return 0;
 }

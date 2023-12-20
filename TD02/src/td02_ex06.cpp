@@ -1,19 +1,21 @@
 #include <iostream>
 
-int main() {
+int main()
+{
+    int potatoBags{};
+    int carrots{};
+    int salads{};
 
-    int nb_pdt;
-    std::cin >> nb_pdt;
+    std::cout << "Enter number of potato bags: ";
+    std::cin >> potatoBags;
 
-    int nb_carottes;
-    std::cin >> nb_carottes;
+    std::cout << "Enter number of carrots : ";
+    std::cin >> carrots;
 
-    int nb_salades;
-    std::cin >> nb_salades;
+    std::cout << "Enter number of salads : ";
+    std::cin >> salads;
 
-    float prix_commande = nb_pdt*2*1.5 + 0.375*nb_carottes + nb_salades*1.2;
-
-    std::cout << prix_commande ;
+    std::cout << "The order price is : " << potatoBags*2*1.5 + carrots*(150*2.5/1000) + salads*1.2;
 
     return 0;
 }

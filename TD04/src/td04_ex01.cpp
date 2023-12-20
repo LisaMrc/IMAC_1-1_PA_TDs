@@ -23,7 +23,8 @@ int main()
 
     for (int cpt{0}; cpt < number; cpt++)
     {
-        if(cpt % 2 == 0) {
+        if(cpt % 2 == 0)
+        {
             continue;
         }
         std::cout << cpt << std::endl;
@@ -38,7 +39,7 @@ int main()
 
     for (int cpt{0}; cpt<number; cpt+=2)
     {
-            std::cout << cpt << std::endl;
+        std::cout << cpt << std::endl;
     }   
 } */
 

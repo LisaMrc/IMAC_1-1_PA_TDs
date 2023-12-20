@@ -1,6 +1,6 @@
-^C:\USERS\LISAM\DOCUMENTS\IMAC\C++\TD02\CMAKELISTS.TXT
+^F:\IMAC\PROGRAMMATION ET ALGORITHMIQUE\IMAC_1_TDS_CPP\TD02\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/lisam/Documents/IMAC/C++/TD02 -BC:/Users/lisam/Documents/IMAC/C++/TD02/build --check-stamp-file C:/Users/lisam/Documents/IMAC/C++/TD02/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD02" "-BF:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD02/build" --check-stamp-file "F:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD02/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

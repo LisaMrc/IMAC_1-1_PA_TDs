@@ -1,15 +1,18 @@
 #include <iostream>
 
-int main() {
-    int saisie;
-    std::cout << "Saisir une valeur :";
-    std::cin >> saisie;
+int main()
+{
+    int userInteger{0};
+    std::cout << "Enter an integer : ";
+    std::cin >> userInteger;
 
-    if (saisie % 2 == 0) {
-        std::cout << saisie << "est pair" << std::endl;
+    if (userInteger%2 == 0)
+    {
+       std::cout << userInteger << " is even";
     }
-    else {
-        std::cout << saisie << "est impair" << std::endl;
+    else 
+    {
+        std::cout << userInteger << " is odd";
     }
 
     return 0;
