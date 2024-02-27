@@ -1,5 +1,0 @@
-E:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD07/build/CMakeFiles/ex01.dir
-E:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD07/build/CMakeFiles/ex01pt2.dir
-E:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD07/build/CMakeFiles/ex02.dir
-E:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD07/build/CMakeFiles/ALL_BUILD.dir
-E:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD07/build/CMakeFiles/ZERO_CHECK.dir

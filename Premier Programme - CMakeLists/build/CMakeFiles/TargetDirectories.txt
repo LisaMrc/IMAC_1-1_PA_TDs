@@ -1,3 +1,0 @@
-C:/Users/lisam/Documents/IMAC/C++/CMakeLists/build/CMakeFiles/helloImac.dir
-C:/Users/lisam/Documents/IMAC/C++/CMakeLists/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/lisam/Documents/IMAC/C++/CMakeLists/build/CMakeFiles/ZERO_CHECK.dir
