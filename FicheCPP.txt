@@ -73,6 +73,7 @@ struct Product
     float price {};
     unsigned int quantity {};
 };
+
 MANIPULATION
 Entrer des valeurs (initialisation)
 Attention : il faut l'initialiser. On peut également utiliser
@@ -309,7 +310,7 @@ int main()
         return 0;
 }
 
-Les rérférences ____
+Les références ____
 
 Intérêt : ne pas copier l'élément (opti pour les images et les tableaux surtout) et modifier l'objet en paramètre (sinon la copie est détruite et le paramètre n'est pas modifié)
 

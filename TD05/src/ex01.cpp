@@ -32,7 +32,7 @@
     int min_provision{24100};
     int min_nain{0};
     
-    // Essai en utilisant un for
+    // En utilisant un for
     
     for (int i{0}; i < calories.size(); i++) {
         int valeur_courante = calories[i];
@@ -47,6 +47,8 @@
             min_nain = i;
         }
     }
+
+    // En utilisant un sort (pour les nains 2 et 3)
 
     int max_provision2{};
     int max_provision3{};
@@ -86,20 +88,19 @@ int main()
       std::cout << c << ", ";
     }
     std::cout << std::endl;
-
-    // TODO: afficher la quantité de provisions la plus grande transportée par un nain
     
     std::vector<int> max_provision{};
     int max_nain{0};
     
-    for (int i{0}; i<10; i++) {
+    for (int i{0}; i<10; i++)
+    {
         max_provision.push_back(0);
     }
     
     for (int i{0}; i < dwarf_count; i++) {
         int valeur_courante = calories[i];
 
-        for (int j{0}; i < dwarf_count; j++)
+        for (int j{0}; j < dwarf_count; j++)
         {
             if (valeur_courante > max_provision[j]) {
                 max_provision[j] = valeur_courante;

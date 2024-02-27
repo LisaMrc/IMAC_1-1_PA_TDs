@@ -3,7 +3,7 @@
 
 int main()
 {
-    Fraction f1 { 3, 4 };
+    Fraction f1 { 9, 4 };
     Fraction f2 { 1, 2 };
 
     std::cout << "f1 = ";

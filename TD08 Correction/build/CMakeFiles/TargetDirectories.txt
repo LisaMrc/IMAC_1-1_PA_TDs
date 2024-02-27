@@ -1,0 +1,3 @@
+C:/IMAC 1/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD08 Correction/build/CMakeFiles/main.dir
+C:/IMAC 1/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD08 Correction/build/CMakeFiles/edit_cache.dir
+C:/IMAC 1/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD08 Correction/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,480 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TD02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-491ec5dddb891b4e73e6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-02546125babaed86df0d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex01-Debug-af2c2cf793284ab269ab.json",
+					"name" : "ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex02-Debug-6651b767672cdde2295d.json",
+					"name" : "ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex03-Debug-f537ecf958830ef5679c.json",
+					"name" : "ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex04-Debug-6336a7f9e4dc00ded38d.json",
+					"name" : "ex04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex05-Debug-063cbc68cbbbacbdf798.json",
+					"name" : "ex05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex06-Debug-fb258dda91c8bf43728e.json",
+					"name" : "ex06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex07-Debug-d49da076b492a36e5fc7.json",
+					"name" : "ex07",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TD02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-491ec5dddb891b4e73e6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-02546125babaed86df0d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex01-Release-13c972f6deedebe5293e.json",
+					"name" : "ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex02-Release-2cccd50ddac149a834ef.json",
+					"name" : "ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex03-Release-e78fed84ea24ee25b358.json",
+					"name" : "ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex04-Release-3a02548ad4409db2d749.json",
+					"name" : "ex04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex05-Release-1feb75a0e5a2fa3df029.json",
+					"name" : "ex05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex06-Release-c4a5bf7e86676c488da7.json",
+					"name" : "ex06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex07-Release-406f6ca17ac55b749b08.json",
+					"name" : "ex07",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TD02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-491ec5dddb891b4e73e6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-02546125babaed86df0d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex01-MinSizeRel-ca630def630d38d3d1a6.json",
+					"name" : "ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex02-MinSizeRel-d177c0a4fbd1aff8ff65.json",
+					"name" : "ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex03-MinSizeRel-390e8cde81f97f1c8edb.json",
+					"name" : "ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex04-MinSizeRel-85cdde95b41765ceef9a.json",
+					"name" : "ex04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex05-MinSizeRel-f846cb10466553333e9b.json",
+					"name" : "ex05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex06-MinSizeRel-93bda91f0e08b14db8db.json",
+					"name" : "ex06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex07-MinSizeRel-ed3e4e8aefb895e94f0f.json",
+					"name" : "ex07",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TD02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-491ec5dddb891b4e73e6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-02546125babaed86df0d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex01-RelWithDebInfo-a7eca493ab7bc3d78421.json",
+					"name" : "ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex02-RelWithDebInfo-39108a72920447f7c70d.json",
+					"name" : "ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex03-RelWithDebInfo-355788ca9e5064710c91.json",
+					"name" : "ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex04-RelWithDebInfo-a3bd9329fdbdb9676ad3.json",
+					"name" : "ex04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex05-RelWithDebInfo-127b8aeb34aba357c56e.json",
+					"name" : "ex05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex06-RelWithDebInfo-cf28eb6ab6a170303822.json",
+					"name" : "ex06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex07-RelWithDebInfo-5231f9fd1b47e2bad41f.json",
+					"name" : "ex07",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD02/build",
+		"source" : "F:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

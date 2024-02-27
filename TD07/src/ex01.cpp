@@ -40,9 +40,10 @@ void display (Position &position) {
 
 int main()
 {
-    Position position{0, 0};
+    Position position {0, 0};
 
-    std::vector<Move> moves = {
+    std::vector<Move> moves = 
+    {
         {Direction::Forward, 10},
         {Direction::Down, 5},
         {Direction::Backward, 3},
@@ -56,7 +57,8 @@ int main()
         {Direction::Forward, 1},
         {Direction::Down, 5},
         {Direction::Backward, 2},
-        {Direction::Forward, 6}};
+        {Direction::Forward, 6}
+    };
 
     for (int i = 0; i < moves.size(); i++)
     {

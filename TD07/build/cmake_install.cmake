@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/lisam/Documents/IMAC/C++/TD07
+# Install script for directory: E:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD07
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/lisam/Documents/IMAC/C++/TD07/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/IMAC/Programmation et Algorithmique/IMAC_1_TDs_CPP/TD07/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

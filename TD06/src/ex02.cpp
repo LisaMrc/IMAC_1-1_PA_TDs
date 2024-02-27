@@ -16,18 +16,18 @@ int fact(int n) {
         result = 1;
 
     } else {
-        std::cout << "FAC(" << n << ") = FAC ()" << n-1 << ") x " << n << std::endl;
+        std::cout << "FAC(" << n << ") = FAC (" << n-1 << ") * " << n << std::endl;
         result = fact(n-1) + n;
     }
 
     return result;
 }
 
-int main() {
-    int n {};
-    std::cout << "Saisir un entier positif :" << std::endl;
+int main() 
+{
+    int n{};
+    std::cout << "Saisir un entier positif : " << std::endl;
     std::cin >> n;
-
     std::cout << "Le résultat est " << fact(n) << std::endl;
 } */
 

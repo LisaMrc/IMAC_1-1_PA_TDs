@@ -5,7 +5,7 @@ int main() {
     std::string saisie_total;
     std::string saisie;
 
-    std::cout << "Saisissez un code bancaire" << std::endl;
+    std::cout << "Saisissez un code bancaire :" << std::endl;
 
     while (saisie_total.size() < 16) {
         std::cin >> saisie;
@@ -14,7 +14,8 @@ int main() {
 
     std::vector<int> code;
 
-    for (int i{0}; i<saisie_total.size(); i++) {
+    for (int i{0}; i<saisie_total.size(); i++)
+    {
         char caracter_courant = saisie_total[i];
         int valeur = caracter_courant - '0';
         code.push_back(valeur);
@@ -22,16 +23,16 @@ int main() {
 
     std::cout << std::endl;
 
-    for (int i {1}; i<code.size(); i+=2) {
+    for (int i {1}; i<code.size(); i+=2)
+    {
         int valeur = code[i];
         valeur*=2;
         code[i] = valeur;
-        int nouvelle_valeur{0};
 
         if (valeur>=10) {
             valeur = valeur % 10 + valeur / 10;
         }
-
+        
         code[i] = valeur;
     }
 

@@ -50,7 +50,7 @@ int main()
 
 /* ________________ QUESTION 4 : Vérifier que cela fonctionne aussi bien avec des variables que des littéraux dans le cas des références ________________ */
 
-int sum4 (int const  & a, int const  & b)
+int sum4 (int const& a, int const& b)
 {
     return a + b;
 }
